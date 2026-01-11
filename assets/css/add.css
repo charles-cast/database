@@ -1,0 +1,116 @@
+/* -----------------------
+   ADD CONTACT PAGE STYLES
+--------------------------*/
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Container styling */
+.container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.container h2 {
+  text-align: center;
+  color: #1a73e8;
+  margin-bottom: 25px;
+  font-size: 1.7rem;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+input,
+select {
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.2);
+  outline: none;
+}
+
+/* Buttons section */
+button.add-btn {
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+button.add-btn:hover {
+  background-color: #155fc2;
+}
+
+a.cancel-link {
+  display: inline-block;
+  text-align: center;
+  margin-top: 12px;
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 0;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+a.cancel-link:hover {
+  background-color: #d6d9de;
+}
+
+/* Message styling */
+p {
+  text-align: center;
+  font-size: 0.95rem;
+  color: red;
+  margin-bottom: 15px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 1rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  outline: none;
+}

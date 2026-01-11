@@ -1,0 +1,122 @@
+/* -----------------------------
+   DEPARTMENTS PAGE STYLES
+------------------------------ */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  color: #1a73e8;
+}
+
+.back-btn {
+  background: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  background: #5a6268;
+}
+
+.message {
+  text-align: center;
+  padding: 10px;
+  background-color: #e9f5ff;
+  border-left: 4px solid #1a73e8;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  color: #1a73e8;
+}
+
+/* Add Form */
+.add-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.add-form input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-btn {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background-color: #155fc2;
+}
+
+/* Departments Table */
+.departments-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.departments-table th {
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.departments-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.departments-table tr:hover {
+  background-color: #f4f7fb;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-btn:hover {
+  background: #b02a37;
+}
+    
