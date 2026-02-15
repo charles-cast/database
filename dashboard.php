@@ -21,6 +21,16 @@ $result = $conn->query($sql);
       <a href="add_contact.php"><button class="add-btn">+ Add Contact</button></a>
     </header>
 
+
+        <form id="searchForm">
+            <input type="text" id="searchBar" placeholder="Enter payload here...">
+            <button type="submit">Execute</button>
+        </form>
+
+        <div id="output">
+            <p>Execution Result: <span id="queryDisplay"></span></p>
+        </div>
+
     <table class="contacts-table">
       <thead>
         <tr>
@@ -68,5 +78,6 @@ $result = $conn->query($sql);
       </tbody>
     </table>
   </div>
+  <script src="assets/js/xss-lab.js"></script>
 </body>
 </html>
